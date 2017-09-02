@@ -1,0 +1,22 @@
+{
+    "name": "chrismitchell/font-viewer",
+    "type": "project",
+    "require": {
+        "phenx/php-font-lib": "^0.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChuManFu\\": "src/ChuManFu/",
+            "ChuManFu\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "chumanfu",
+            "email": "christopher.mitchell.79@gmail.com"
+        }
+    ]
+}
